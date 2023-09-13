@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+:root {
+  --color-brown: #8d4b55;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}
+
+section{
+  padding-bottom: 3rem;
+}
+
+.resume-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.resume-grid {
+  display: flex;
+  flex: 1 auto;
+}
+
+.re-col {
+  width: 100%;
+}
+
+.resume-profile img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 55px;
+}
+
+header {
+  background-color: var(--color-brown);
+  color: var(--color-white);
+  padding: 4rem 1rem;
+}
+
+.resume-titlebar .title {
+  font-size: 62px;
+}
+.resume-titlebar .subtitle {
+  font: 60px;
+}
+
+.mt-gap {
+  margin-top: 10rem;
+}
+
+.flex-gap {
+  gap: 0px 20px;
+}
+
+.mt-sm-gap {
+  margin-top: 2.5rem;
+}
+
+.details-title {
+  font-size: 2rem;
+  color: var(--color-brown);
+}
+
+.underline {
+  width: 270px;
+  height: 3px;
+  background-color: var(--color-brown);
+  margin: 1rem 0;
+}
+
+.re-users-details.list-type-enabled {
+  list-style: disc;
+  padding-left: 1rem;
+}
+.re-users-details.list-type-enabled li {
+  margin: 0.5rem 0;
+}
+.re-users-details.list-type-enabled li span, .re-users-details.list-type-enabled li a, .re-users-details.list-type-enabled li i {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--color-black);
+}
+.re-users-details.list-type-disabled {
+  list-style: none;
+}
+.re-users-details.list-type-disabled li {
+  display: flex;
+  align-items: center;
+  margin: 0.5rem 0;
+  gap: 0 20px;
+}
+.re-users-details.list-type-disabled li span, .re-users-details.list-type-disabled li a, .re-users-details.list-type-disabled li i {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: var(--color-black);
+}
